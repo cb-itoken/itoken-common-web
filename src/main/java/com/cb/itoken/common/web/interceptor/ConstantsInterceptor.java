@@ -13,9 +13,9 @@ import javax.servlet.http.HttpServletResponse;
  **/
 public class ConstantsInterceptor implements HandlerInterceptor {
 
-    private static final String HOST_CDN = "/assets";
+    private static final String HOST_CDN = "https://raw.githack.com/cb-itoken/itoken-common-static/master";
 
-    private static final String TEMPLATE_ADMIN_LTE = "";
+    private static final String TEMPLATE_ADMIN_LTE = "/assets";
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
